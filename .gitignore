@@ -39,7 +39,6 @@ simulation_test_data.mat
 *.mov
 *.wmv
 *.mkv
-*.png
 *.jpg
 *.jpeg
 *.pdf
