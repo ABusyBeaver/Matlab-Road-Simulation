@@ -1,0 +1,64 @@
+# ==================== 系统和临时文件 ====================
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# ==================== MATLAB ====================
+*.asv
+*.m~ 
+*.mat~
+*.slx.autosave
+*.slx.bak
+
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==================== 大文件和数据文件 ====================
+*.mat
+*.mat~
+#simulation_test_data_final.mat
+measurement_data_multi_robot.mat
+simulation_test_data.mat
+
+# ==================== 多媒体大文件 ====================
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.mkv
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# ==================== IDE 和编辑器 ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-*
+
+# ==================== 日志和输出 ====================
+*.log
+result.png
+scene layout.png
+
+# ==================== 其他不需要上传的内容 ====================
+*.bak
+*.backup
